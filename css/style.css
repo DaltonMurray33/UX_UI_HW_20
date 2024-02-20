@@ -1,0 +1,71 @@
+.header {
+    background-color: #25272d;
+    color: white !important;
+}
+.header .nav-link{
+    color: white;
+}
+.centered-h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container > div {
+    margin: 0 10px;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#backgroundColor{
+    background-color: #005288;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+.text-content {
+    flex: 1; 
+    text-align: center; 
+}
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
